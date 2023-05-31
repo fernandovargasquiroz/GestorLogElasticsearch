@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class SlackMessageSenderLog {
 
-    private static final String SLACK_TOKEN = "xoxb-5011203934215-5249328362928-b0tZK3b4e1vmplcTjDMjMMuR";
+    private static final String SLACK_TOKEN = "********";
     private static final String SLACK_CHANNEL = "#errores-logs";
 
     public void sendMessageLog(List<Logjboss> logjboss) throws Exception {
